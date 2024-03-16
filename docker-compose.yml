@@ -85,7 +85,7 @@ services:
 
     adminer:
         image: adminer
-        # restart: always
+        restart: no
         ports:
           - 58080:8080
         environment:
